@@ -49,7 +49,7 @@ public class ApartmentController {
 	@PostMapping("/apartment/add")
 	@CrossOrigin
 	public int add(@RequestBody Apartment apartment) {
-		System.out.println("apartment/update(post)");
+		System.out.println("apartment/add(post)");
 		//		serviceのadd機能を参照し、dbへの追加を行う
 		return service.add(apartment);
 	}
