@@ -16,7 +16,7 @@ public interface ApartmentRepository extends JpaRepository<Apartment, Integer> {
 	public Optional<Apartment> findById(int id);
 
 	//	名前からデータを検索する
-	public List<Apartment> findByName(String key);
+	// public List<Apartment> findByName(String key);
 
 	//	名前の曖昧検索機能
 	public List<Apartment> findByNameLike(String key);
